@@ -1,0 +1,1257 @@
+{
+  "type": "template",
+  "version": "1.0",
+  "title": "Autoservicio en Acero Inoxidable",
+  "global": {
+    "colors": {
+      "primary": "#32a2c1",
+      "primary-dark": "#1a5565",
+      "secondary": "#0a2434",
+      "accent": "#f4a51c",
+      "text-dark": "#1a1a1a",
+      "text-light": "#666666",
+      "white": "#ffffff",
+      "light-bg": "#f8f9fa"
+    },
+    "fonts": {
+      "heading": "Kanit",
+      "body": "Inter"
+    },
+    "radius": {
+      "md": "12px",
+      "pill": "50px"
+    }
+  },
+  "content": [
+    {
+      "id": "top-bar",
+      "type": "section",
+      "settings": {
+        "background": {
+          "color": "var(--secondary)"
+        },
+        "padding": {
+          "top": "10px",
+          "bottom": "10px"
+        },
+        "color": "var(--white)"
+      },
+      "children": [
+        {
+          "id": "top-bar-container",
+          "type": "container",
+          "settings": {
+            "display": "flex",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "flexWrap": "wrap",
+            "gap": "10px",
+            "maxWidth": "1200px"
+          },
+          "children": [
+            {
+              "id": "top-bar-left",
+              "type": "block",
+              "settings": {
+                "display": "flex",
+                "gap": "20px",
+                "alignItems": "center",
+                "fontSize": "0.9rem"
+              },
+              "children": [
+                {
+                  "id": "top-bar-whatsapp",
+                  "type": "text",
+                  "settings": {
+                    "text": "📱 (+57) 313 8539289",
+                    "tag": "span"
+                  }
+                },
+                {
+                  "id": "top-bar-email",
+                  "type": "text",
+                  "settings": {
+                    "text": "✉️ industriasmetalicas.com@gmail.com",
+                    "tag": "span"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "top-bar-right",
+              "type": "text",
+              "settings": {
+                "text": "⏰ Atendemos 24/7",
+                "tag": "span",
+                "fontSize": "0.9rem"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "header",
+      "type": "section",
+      "settings": {
+        "background": {
+          "color": "var(--white)"
+        },
+        "padding": {
+          "top": "20px",
+          "bottom": "20px"
+        },
+        "boxShadow": "0 4px 20px rgba(0, 0, 0, 0.05)",
+        "position": "sticky",
+        "top": "0",
+        "zIndex": "1000"
+      },
+      "children": [
+        {
+          "id": "header-container",
+          "type": "container",
+          "settings": {
+            "display": "flex",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "gap": "20px",
+            "maxWidth": "1200px"
+          },
+          "children": [
+            {
+              "id": "logo",
+              "type": "text",
+              "settings": {
+                "text": "🏭 INDUSTRIAS METALICAS",
+                "tag": "div",
+                "fontFamily": "var(--heading)",
+                "fontSize": "1.5rem",
+                "fontWeight": "700",
+                "color": "var(--secondary)"
+              }
+            },
+            {
+              "id": "nav",
+              "type": "nav-menu",
+              "settings": {
+                "items": [
+                  {
+                    "label": "Inicio",
+                    "url": "#inicio"
+                  },
+                  {
+                    "label": "Producto",
+                    "url": "#producto"
+                  },
+                  {
+                    "label": "Características",
+                    "url": "#caracteristicas"
+                  },
+                  {
+                    "label": "Galería",
+                    "url": "#galeria"
+                  },
+                  {
+                    "label": "Preguntas",
+                    "url": "#faq"
+                  }
+                ],
+                "fontFamily": "var(--heading)",
+                "fontWeight": "500",
+                "gap": "30px",
+                "color": "var(--secondary)"
+              }
+            },
+            {
+              "id": "header-cta",
+              "type": "button",
+              "settings": {
+                "text": "Cotizar Ahora",
+                "url": "https://api.whatsapp.com/send/?phone=573138539289",
+                "style": "primary",
+                "icon": "fab fa-whatsapp",
+                "padding": "14px 28px",
+                "borderRadius": "50px"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hero",
+      "type": "section",
+      "settings": {
+        "background": {
+          "type": "gradient",
+          "value": "linear-gradient(135deg, #0a2434 0%, #1a5565 100%)"
+        },
+        "padding": {
+          "top": "100px",
+          "bottom": "100px"
+        },
+        "color": "var(--white)"
+      },
+      "attributes": {
+        "id": "inicio"
+      },
+      "children": [
+        {
+          "id": "hero-container",
+          "type": "container",
+          "settings": {
+            "display": "flex",
+            "alignItems": "center",
+            "gap": "60px",
+            "flexWrap": "wrap",
+            "maxWidth": "1200px"
+          },
+          "children": [
+            {
+              "id": "hero-content",
+              "type": "block",
+              "settings": {
+                "flex": "1",
+                "minWidth": "280px"
+              },
+              "children": [
+                {
+                  "id": "hero-title",
+                  "type": "heading",
+                  "settings": {
+                    "text": "Autoservicio en Acero Inoxidable",
+                    "tag": "h1",
+                    "fontSize": "3.5rem",
+                    "fontWeight": "800"
+                  }
+                },
+                {
+                  "id": "hero-text",
+                  "type": "text",
+                  "settings": {
+                    "text": "Equipamiento industrial de alta gama para restaurantes, casinos y comedores. Diseño higiénico, duradero y 100% personalizable a su espacio.",
+                    "fontSize": "1.2rem",
+                    "maxWidth": "500px",
+                    "opacity": "0.9"
+                  }
+                },
+                {
+                  "id": "hero-buttons",
+                  "type": "block",
+                  "settings": {
+                    "display": "flex",
+                    "gap": "15px",
+                    "flexWrap": "wrap",
+                    "marginTop": "30px"
+                  },
+                  "children": [
+                    {
+                      "id": "hero-cta",
+                      "type": "button",
+                      "settings": {
+                        "text": "Solicitar Asesoría",
+                        "url": "https://api.whatsapp.com/send/?phone=573138539289",
+                        "style": "accent",
+                        "padding": "14px 28px",
+                        "borderRadius": "50px"
+                      }
+                    },
+                    {
+                      "id": "hero-video-button",
+                      "type": "button",
+                      "settings": {
+                        "text": "Ver Video",
+                        "url": "#video",
+                        "style": "outline",
+                        "icon": "fas fa-play",
+                        "padding": "14px 28px",
+                        "borderRadius": "50px",
+                        "color": "var(--white)",
+                        "borderColor": "var(--white)",
+                        "background": "rgba(255,255,255,0.2)"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hero-image",
+              "type": "image",
+              "settings": {
+                "image": {
+                  "url": "https://via.placeholder.com/640x520",
+                  "alt": "Autoservicio Inoxidable Industrial"
+                },
+                "borderRadius": "12px",
+                "boxShadow": "0 20px 50px rgba(0, 0, 0, 0.3)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "section",
+      "settings": {
+        "padding": {
+          "top": "40px",
+          "bottom": "40px"
+        },
+        "background": {
+          "color": "var(--white)"
+        }
+      },
+      "children": [
+        {
+          "id": "stats-container",
+          "type": "container",
+          "settings": {
+            "display": "flex",
+            "gap": "20px",
+            "flexWrap": "wrap",
+            "justifyContent": "space-between",
+            "textAlign": "center",
+            "boxShadow": "0 10px 30px rgba(0, 0, 0, 0.05)",
+            "borderRadius": "12px",
+            "padding": "30px",
+            "marginTop": "-60px"
+          },
+          "children": [
+            {
+              "id": "stat-1",
+              "type": "block",
+              "settings": {
+                "flex": "1",
+                "minWidth": "160px"
+              },
+              "children": [
+                {
+                  "id": "stat-1-icon",
+                  "type": "icon",
+                  "settings": {
+                    "icon": "fas fa-certificate",
+                    "color": "var(--primary)",
+                    "size": "32px"
+                  }
+                },
+                {
+                  "id": "stat-1-text",
+                  "type": "text",
+                  "settings": {
+                    "text": "Acero 304 Certificado",
+                    "tag": "p",
+                    "fontSize": "0.9rem",
+                    "textTransform": "uppercase",
+                    "letterSpacing": "1px",
+                    "color": "var(--text-light)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "stat-2",
+              "type": "block",
+              "settings": {
+                "flex": "1",
+                "minWidth": "160px"
+              },
+              "children": [
+                {
+                  "id": "stat-2-icon",
+                  "type": "icon",
+                  "settings": {
+                    "icon": "fas fa-shipping-fast",
+                    "color": "var(--primary)",
+                    "size": "32px"
+                  }
+                },
+                {
+                  "id": "stat-2-text",
+                  "type": "text",
+                  "settings": {
+                    "text": "Envíos a toda Colombia",
+                    "tag": "p",
+                    "fontSize": "0.9rem",
+                    "textTransform": "uppercase",
+                    "letterSpacing": "1px",
+                    "color": "var(--text-light)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "stat-3",
+              "type": "block",
+              "settings": {
+                "flex": "1",
+                "minWidth": "160px"
+              },
+              "children": [
+                {
+                  "id": "stat-3-icon",
+                  "type": "icon",
+                  "settings": {
+                    "icon": "fas fa-layer-group",
+                    "color": "var(--primary)",
+                    "size": "32px"
+                  }
+                },
+                {
+                  "id": "stat-3-text",
+                  "type": "text",
+                  "settings": {
+                    "text": "Diseño Modular",
+                    "tag": "p",
+                    "fontSize": "0.9rem",
+                    "textTransform": "uppercase",
+                    "letterSpacing": "1px",
+                    "color": "var(--text-light)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "stat-4",
+              "type": "block",
+              "settings": {
+                "flex": "1",
+                "minWidth": "160px"
+              },
+              "children": [
+                {
+                  "id": "stat-4-icon",
+                  "type": "icon",
+                  "settings": {
+                    "icon": "fas fa-medal",
+                    "color": "var(--primary)",
+                    "size": "32px"
+                  }
+                },
+                {
+                  "id": "stat-4-text",
+                  "type": "text",
+                  "settings": {
+                    "text": "Garantía de Fábrica",
+                    "tag": "p",
+                    "fontSize": "0.9rem",
+                    "textTransform": "uppercase",
+                    "letterSpacing": "1px",
+                    "color": "var(--text-light)"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product-overview",
+      "type": "section",
+      "settings": {
+        "padding": {
+          "top": "80px",
+          "bottom": "80px"
+        },
+        "background": {
+          "color": "var(--white)"
+        }
+      },
+      "attributes": {
+        "id": "producto"
+      },
+      "children": [
+        {
+          "id": "product-container",
+          "type": "container",
+          "settings": {
+            "display": "flex",
+            "alignItems": "center",
+            "gap": "60px",
+            "flexWrap": "wrap",
+            "maxWidth": "1200px"
+          },
+          "children": [
+            {
+              "id": "product-image",
+              "type": "image",
+              "settings": {
+                "image": {
+                  "url": "https://via.placeholder.com/600x500",
+                  "alt": "Detalle Autoservicio"
+                },
+                "borderRadius": "12px"
+              }
+            },
+            {
+              "id": "product-content",
+              "type": "block",
+              "settings": {
+                "flex": "1",
+                "minWidth": "280px"
+              },
+              "children": [
+                {
+                  "id": "product-kicker",
+                  "type": "text",
+                  "settings": {
+                    "text": "Solución Gastronómica",
+                    "tag": "span",
+                    "color": "var(--primary)",
+                    "fontWeight": "600",
+                    "textTransform": "uppercase",
+                    "letterSpacing": "1px"
+                  }
+                },
+                {
+                  "id": "product-title",
+                  "type": "heading",
+                  "settings": {
+                    "text": "Eficiencia y Elegancia para su Servicio de Alimentos",
+                    "tag": "h2",
+                    "fontSize": "2.5rem",
+                    "color": "var(--secondary)"
+                  }
+                },
+                {
+                  "id": "product-price",
+                  "type": "text",
+                  "settings": {
+                    "text": "$ 2.000.000 COP (Precio Base)",
+                    "tag": "div",
+                    "fontSize": "2rem",
+                    "fontWeight": "700",
+                    "color": "var(--primary)",
+                    "marginBottom": "20px"
+                  }
+                },
+                {
+                  "id": "product-description",
+                  "type": "text",
+                  "settings": {
+                    "text": "Un autoservicio en acero inoxidable es un sistema de mobiliario gastronómico diseñado para que los usuarios se sirvan alimentos de forma autónoma, manteniendo altos estándares de higiene, orden y eficiencia. Es ampliamente utilizado en restaurantes, hoteles, casinos y comedores industriales."
+                  }
+                },
+                {
+                  "id": "feature-list",
+                  "type": "block",
+                  "settings": {
+                    "display": "flex",
+                    "flexWrap": "wrap",
+                    "gap": "20px",
+                    "marginTop": "30px"
+                  },
+                  "children": [
+                    {
+                      "id": "feature-1",
+                      "type": "block",
+                      "settings": {
+                        "display": "flex",
+                        "gap": "15px",
+                        "alignItems": "center",
+                        "flex": "1",
+                        "minWidth": "240px"
+                      },
+                      "children": [
+                        {
+                          "id": "feature-1-icon",
+                          "type": "icon",
+                          "settings": {
+                            "icon": "fas fa-shield-alt",
+                            "color": "var(--primary)",
+                            "background": "var(--light-bg)",
+                            "borderRadius": "50%",
+                            "padding": "10px"
+                          }
+                        },
+                        {
+                          "id": "feature-1-text",
+                          "type": "text",
+                          "settings": {
+                            "text": "Material Premium\nAcero Inoxidable 304 Grado Alimenticio",
+                            "tag": "div"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "feature-2",
+                      "type": "block",
+                      "settings": {
+                        "display": "flex",
+                        "gap": "15px",
+                        "alignItems": "center",
+                        "flex": "1",
+                        "minWidth": "240px"
+                      },
+                      "children": [
+                        {
+                          "id": "feature-2-icon",
+                          "type": "icon",
+                          "settings": {
+                            "icon": "fas fa-ruler-combined",
+                            "color": "var(--primary)",
+                            "background": "var(--light-bg)",
+                            "borderRadius": "50%",
+                            "padding": "10px"
+                          }
+                        },
+                        {
+                          "id": "feature-2-text",
+                          "type": "text",
+                          "settings": {
+                            "text": "A la Medida\n180x70cm, 200x80cm o personalizado",
+                            "tag": "div"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "feature-3",
+                      "type": "block",
+                      "settings": {
+                        "display": "flex",
+                        "gap": "15px",
+                        "alignItems": "center",
+                        "flex": "1",
+                        "minWidth": "240px"
+                      },
+                      "children": [
+                        {
+                          "id": "feature-3-icon",
+                          "type": "icon",
+                          "settings": {
+                            "icon": "fas fa-users",
+                            "color": "var(--primary)",
+                            "background": "var(--light-bg)",
+                            "borderRadius": "50%",
+                            "padding": "10px"
+                          }
+                        },
+                        {
+                          "id": "feature-3-text",
+                          "type": "text",
+                          "settings": {
+                            "text": "Alta Capacidad\nDe 2 a 6 estaciones por módulo",
+                            "tag": "div"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "feature-4",
+                      "type": "block",
+                      "settings": {
+                        "display": "flex",
+                        "gap": "15px",
+                        "alignItems": "center",
+                        "flex": "1",
+                        "minWidth": "240px"
+                      },
+                      "children": [
+                        {
+                          "id": "feature-4-icon",
+                          "type": "icon",
+                          "settings": {
+                            "icon": "fas fa-temperature-low",
+                            "color": "var(--primary)",
+                            "background": "var(--light-bg)",
+                            "borderRadius": "50%",
+                            "padding": "10px"
+                          }
+                        },
+                        {
+                          "id": "feature-4-text",
+                          "type": "text",
+                          "settings": {
+                            "text": "Versatilidad\nMódulos térmicos y refrigerados",
+                            "tag": "div"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "product-cta",
+                  "type": "button",
+                  "settings": {
+                    "text": "Compruébelo Usted Mismo",
+                    "url": "https://api.whatsapp.com/send/?phone=573138539289",
+                    "style": "primary",
+                    "padding": "14px 28px",
+                    "borderRadius": "50px",
+                    "marginTop": "30px"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "type": "section",
+      "settings": {
+        "background": {
+          "color": "#000000"
+        },
+        "padding": {
+          "top": "0",
+          "bottom": "0"
+        }
+      },
+      "attributes": {
+        "id": "video"
+      },
+      "children": [
+        {
+          "id": "video-container",
+          "type": "container",
+          "settings": {
+            "maxWidth": "1200px",
+            "padding": "0"
+          },
+          "children": [
+            {
+              "id": "video-element",
+              "type": "video",
+              "settings": {
+                "source": "https://example.com/video.mp4",
+                "autoplay": true,
+                "muted": true,
+                "loop": true,
+                "height": "600px",
+                "objectFit": "cover",
+                "opacity": "0.6"
+              }
+            },
+            {
+              "id": "video-overlay",
+              "type": "block",
+              "settings": {
+                "position": "absolute",
+                "top": "0",
+                "left": "0",
+                "width": "100%",
+                "height": "100%",
+                "display": "flex",
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "alignItems": "center",
+                "textAlign": "center",
+                "color": "var(--white)",
+                "padding": "20px"
+              },
+              "children": [
+                {
+                  "id": "video-title",
+                  "type": "heading",
+                  "settings": {
+                    "text": "Calidad en Movimiento",
+                    "tag": "h2",
+                    "fontSize": "3rem"
+                  }
+                },
+                {
+                  "id": "video-text",
+                  "type": "text",
+                  "settings": {
+                    "text": "Observe el detalle de nuestros acabados y la funcionalidad de nuestros equipos.",
+                    "fontSize": "1.2rem",
+                    "marginBottom": "30px"
+                  }
+                },
+                {
+                  "id": "video-cta",
+                  "type": "button",
+                  "settings": {
+                    "text": "Hablar con un Asesor",
+                    "url": "https://api.whatsapp.com/send/?phone=573138539289",
+                    "style": "accent",
+                    "icon": "fab fa-whatsapp",
+                    "padding": "14px 28px",
+                    "borderRadius": "50px"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "specs",
+      "type": "section",
+      "settings": {
+        "padding": {
+          "top": "80px",
+          "bottom": "80px"
+        },
+        "background": {
+          "color": "var(--light-bg)"
+        }
+      },
+      "attributes": {
+        "id": "caracteristicas"
+      },
+      "children": [
+        {
+          "id": "specs-container",
+          "type": "container",
+          "settings": {
+            "maxWidth": "900px"
+          },
+          "children": [
+            {
+              "id": "specs-heading",
+              "type": "block",
+              "settings": {
+                "textAlign": "center",
+                "marginBottom": "50px"
+              },
+              "children": [
+                {
+                  "id": "specs-title",
+                  "type": "heading",
+                  "settings": {
+                    "text": "Especificaciones Técnicas",
+                    "tag": "h2",
+                    "color": "var(--secondary)"
+                  }
+                },
+                {
+                  "id": "specs-subtitle",
+                  "type": "text",
+                  "settings": {
+                    "text": "Detalles completos de nuestra línea de autoservicio."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "specs-table",
+              "type": "table",
+              "settings": {
+                "rows": [
+                  [
+                    "Material",
+                    "Acero inoxidable grado alimenticio 304, resistente a corrosión y altas temperaturas."
+                  ],
+                  [
+                    "Acabado",
+                    "Satinado industrial, esquinas redondeadas para fácil limpieza y seguridad."
+                  ],
+                  [
+                    "Dimensiones Estándar",
+                    "180x70 cm | 200x80 cm (Fabricación a medida disponible)."
+                  ],
+                  [
+                    "Componentes Incluidos",
+                    "Cubetas GN de acero o policarbonato, vidrio protector tipo sneeze guard, estantería inferior para almacenaje, ruedas con freno (opcional)."
+                  ],
+                  [
+                    "Uso Ideal",
+                    "Buffet caliente, ensaladas, postres, bebidas, cafetería empresarial."
+                  ]
+                ],
+                "headerStyle": {
+                  "background": "var(--light-bg)",
+                  "color": "var(--secondary)"
+                },
+                "cellPadding": "20px",
+                "borderRadius": "12px",
+                "boxShadow": "0 10px 30px rgba(0, 0, 0, 0.05)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "section",
+      "settings": {
+        "padding": {
+          "top": "80px",
+          "bottom": "80px"
+        }
+      },
+      "attributes": {
+        "id": "galeria"
+      },
+      "children": [
+        {
+          "id": "gallery-container",
+          "type": "container",
+          "settings": {
+            "maxWidth": "1200px"
+          },
+          "children": [
+            {
+              "id": "gallery-heading",
+              "type": "block",
+              "settings": {
+                "textAlign": "center",
+                "marginBottom": "50px"
+              },
+              "children": [
+                {
+                  "id": "gallery-title",
+                  "type": "heading",
+                  "settings": {
+                    "text": "Galería de Proyectos",
+                    "tag": "h2",
+                    "color": "var(--secondary)"
+                  }
+                },
+                {
+                  "id": "gallery-subtitle",
+                  "type": "text",
+                  "settings": {
+                    "text": "Nuestros equipos instalados y listos para trabajar."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "gallery-grid",
+              "type": "block",
+              "settings": {
+                "display": "flex",
+                "flexWrap": "wrap",
+                "gap": "20px"
+              },
+              "children": [
+                {
+                  "id": "gallery-1",
+                  "type": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://via.placeholder.com/300x300",
+                      "alt": "Mueble Autoservicio Vista Frontal"
+                    },
+                    "borderRadius": "12px",
+                    "flex": "1",
+                    "minWidth": "250px"
+                  }
+                },
+                {
+                  "id": "gallery-2",
+                  "type": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://via.placeholder.com/300x300",
+                      "alt": "Línea de Autoservicio Completa"
+                    },
+                    "borderRadius": "12px",
+                    "flex": "1",
+                    "minWidth": "250px"
+                  }
+                },
+                {
+                  "id": "gallery-3",
+                  "type": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://via.placeholder.com/300x300",
+                      "alt": "Detalle Cubetas GN"
+                    },
+                    "borderRadius": "12px",
+                    "flex": "1",
+                    "minWidth": "250px"
+                  }
+                },
+                {
+                  "id": "gallery-4",
+                  "type": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://via.placeholder.com/300x300",
+                      "alt": "Acabados en Acero"
+                    },
+                    "borderRadius": "12px",
+                    "flex": "1",
+                    "minWidth": "250px"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "section",
+      "settings": {
+        "padding": {
+          "top": "80px",
+          "bottom": "80px"
+        },
+        "background": {
+          "color": "var(--light-bg)"
+        }
+      },
+      "attributes": {
+        "id": "faq"
+      },
+      "children": [
+        {
+          "id": "faq-container",
+          "type": "container",
+          "settings": {
+            "maxWidth": "800px"
+          },
+          "children": [
+            {
+              "id": "faq-heading",
+              "type": "block",
+              "settings": {
+                "textAlign": "center",
+                "marginBottom": "50px"
+              },
+              "children": [
+                {
+                  "id": "faq-title",
+                  "type": "heading",
+                  "settings": {
+                    "text": "Preguntas Frecuentes",
+                    "tag": "h2",
+                    "color": "var(--secondary)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "faq-accordion",
+              "type": "accordion",
+              "settings": {
+                "items": [
+                  {
+                    "title": "¿Qué es un autoservicio en acero inoxidable?",
+                    "content": "Un autoservicio en acero inoxidable es un sistema de mobiliario gastronómico diseñado para que los usuarios se sirvan alimentos de forma autónoma, manteniendo altos estándares de higiene, orden y eficiencia. Es ampliamente utilizado en restaurantes, hoteles, casinos y comedores industriales."
+                  },
+                  {
+                    "title": "¿Para qué tipo de negocios se recomienda?",
+                    "content": "Es ideal para restaurantes, buffets, hoteles, casinos, comedores industriales, clínicas, hospitales, colegios, universidades y empresas. Permite atender alto volumen de personas de manera organizada."
+                  },
+                  {
+                    "title": "¿Fabrican a medida?",
+                    "content": "Sí. Somos fabricantes directos en Colombia y ofrecemos fabricación a medida, adaptando dimensiones, configuración, módulos y diseño según el espacio y el flujo de servicio de su negocio."
+                  },
+                  {
+                    "title": "¿El equipo cumple normas sanitarias?",
+                    "content": "Sí. Nuestras líneas de autoservicio están diseñadas para cumplir con las exigencias sanitarias aplicables al sector alimentario, facilitando la limpieza, desinfección y control higiénico diario gracias al Acero Inoxidable 304."
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "type": "section",
+      "settings": {
+        "background": {
+          "color": "var(--primary)"
+        },
+        "padding": {
+          "top": "80px",
+          "bottom": "80px"
+        },
+        "color": "var(--white)"
+      },
+      "children": [
+        {
+          "id": "cta-container",
+          "type": "container",
+          "settings": {
+            "textAlign": "center",
+            "maxWidth": "1200px"
+          },
+          "children": [
+            {
+              "id": "cta-title",
+              "type": "heading",
+              "settings": {
+                "text": "¿Listo para equipar su negocio?",
+                "tag": "h2",
+                "fontSize": "2.5rem"
+              }
+            },
+            {
+              "id": "cta-text",
+              "type": "text",
+              "settings": {
+                "text": "Obtenga la mejor calidad en acero inoxidable con garantía directa de fábrica.",
+                "fontSize": "1.2rem",
+                "opacity": "0.9",
+                "marginBottom": "30px"
+              }
+            },
+            {
+              "id": "cta-button",
+              "type": "button",
+              "settings": {
+                "text": "Solicitar Cotización Gratis",
+                "url": "https://api.whatsapp.com/send/?phone=573138539289",
+                "style": "accent",
+                "icon": "fab fa-whatsapp",
+                "padding": "18px 40px",
+                "borderRadius": "50px",
+                "fontSize": "1.2rem"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "footer",
+      "type": "section",
+      "settings": {
+        "background": {
+          "color": "var(--secondary)"
+        },
+        "padding": {
+          "top": "60px",
+          "bottom": "20px"
+        },
+        "color": "var(--white)"
+      },
+      "children": [
+        {
+          "id": "footer-container",
+          "type": "container",
+          "settings": {
+            "maxWidth": "1200px"
+          },
+          "children": [
+            {
+              "id": "footer-grid",
+              "type": "block",
+              "settings": {
+                "display": "flex",
+                "flexWrap": "wrap",
+                "gap": "40px",
+                "marginBottom": "40px"
+              },
+              "children": [
+                {
+                  "id": "footer-col-1",
+                  "type": "block",
+                  "settings": {
+                    "flex": "1",
+                    "minWidth": "200px"
+                  },
+                  "children": [
+                    {
+                      "id": "footer-col-1-title",
+                      "type": "heading",
+                      "settings": {
+                        "text": "Industrias Metálicas",
+                        "tag": "h4",
+                        "fontSize": "1.2rem",
+                        "borderBottom": "2px solid var(--primary)",
+                        "display": "inline-block",
+                        "paddingBottom": "10px"
+                      }
+                    },
+                    {
+                      "id": "footer-col-1-text",
+                      "type": "text",
+                      "settings": {
+                        "text": "Fabricantes líderes de equipos en acero inoxidable en Colombia. Calidad, diseño y durabilidad para su cocina industrial."
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "footer-col-2",
+                  "type": "block",
+                  "settings": {
+                    "flex": "1",
+                    "minWidth": "200px"
+                  },
+                  "children": [
+                    {
+                      "id": "footer-col-2-title",
+                      "type": "heading",
+                      "settings": {
+                        "text": "Productos",
+                        "tag": "h4",
+                        "fontSize": "1.2rem",
+                        "borderBottom": "2px solid var(--primary)",
+                        "display": "inline-block",
+                        "paddingBottom": "10px"
+                      }
+                    },
+                    {
+                      "id": "footer-col-2-list",
+                      "type": "text",
+                      "settings": {
+                        "text": "Autoservicios\nMesas de Trabajo\nEstufas Industriales\nCampanas Extractoras",
+                        "tag": "div",
+                        "opacity": "0.7"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "footer-col-3",
+                  "type": "block",
+                  "settings": {
+                    "flex": "1",
+                    "minWidth": "200px"
+                  },
+                  "children": [
+                    {
+                      "id": "footer-col-3-title",
+                      "type": "heading",
+                      "settings": {
+                        "text": "Contacto",
+                        "tag": "h4",
+                        "fontSize": "1.2rem",
+                        "borderBottom": "2px solid var(--primary)",
+                        "display": "inline-block",
+                        "paddingBottom": "10px"
+                      }
+                    },
+                    {
+                      "id": "footer-col-3-text",
+                      "type": "text",
+                      "settings": {
+                        "text": "📞 (+57) 313 8539289\n✉️ industriasmetalicas.com@gmail.com\n📍 Bogotá, Colombia",
+                        "tag": "div",
+                        "opacity": "0.7"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "footer-copyright",
+              "type": "text",
+              "settings": {
+                "text": "© 2026 Industrias Metálicas. Todos los derechos reservados.",
+                "tag": "div",
+                "textAlign": "center",
+                "borderTop": "1px solid rgba(255, 255, 255, 0.1)",
+                "paddingTop": "20px",
+                "fontSize": "0.9rem",
+                "opacity": "0.6"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
